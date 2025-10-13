@@ -2,80 +2,82 @@
   --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors */
-  --oui-color-primary: 32 120 150;
-  --oui-color-primary-light: 64 170 200;
-  --oui-color-primary-darken: 24 96 125;
-  --oui-color-primary-contrast: 255 255 255;
+ /* Primari (CTA/buttons) – azzurro ufficiale */
+--oui-color-primary: 83 222 233;     /* #53DEE9  Connect Wallet */
+--oui-color-primary-light: 132 236 243; /* hover soft */
+--oui-color-primary-darken: 51 199 218; /* hover/active */
+--oui-color-primary-contrast: 13 17 28; /* testo scuro dentro i CTA, come sito ufficiale */
 
-  --oui-color-link: 20 150 180;
-  --oui-color-link-light: 120 210 225;
+/* Link / accenti secondari (viola tipico PancakeSwap) */
+--oui-color-link: 154 101 255;       /* #9A65FF */
+--oui-color-link-light: 186 160 255; /* #BAA0FF */
 
-  --oui-color-secondary: 255 255 255;
-  --oui-color-tertiary: 230 246 249;
-  --oui-color-quaternary: 210 236 244;
+/* Superfici scure (navbar, card, sidebar) */
+--oui-color-fill: 11 15 25;          /* #0B0F19  background */
+--oui-color-fill-active: 26 34 48;    /* #1A2230  hover/pressed surface */
 
-  --oui-color-danger: 237 72 122;
-  --oui-color-danger-light: 250 167 188;
-  --oui-color-danger-darken: 200 45 95;
-  --oui-color-danger-contrast: 255 255 255;
+/* Stato */
+--oui-color-danger: 237 75 158;       /* #ED4B9E */
+--oui-color-danger-light: 248 165 210; /* #F8A5D2 */
+--oui-color-danger-darken: 204 50 128; /* #CC3280 */
+--oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 0 161 120;
-  --oui-color-success-light: 101 240 194;
-  --oui-color-success-darken: 1 120 95;
-  --oui-color-success-contrast: 255 255 255;
+--oui-color-success: 49 208 170;      /* #31D0AA */
+--oui-color-success-light: 129 235 205;/* #81EBCD */
+--oui-color-success-darken: 24 160 129;/* #18A081 */
+--oui-color-success-contrast: 13 17 28;
 
-  --oui-color-warning: 255 209 70;
-  --oui-color-warning-light: 255 229 133;
-  --oui-color-warning-darken: 255 152 0;
-  --oui-color-warning-contrast: 255 255 255;
+--oui-color-warning: 255 178 55;      /* #FFB237 */
+--oui-color-warning-light: 255 210 130;/* #FFD282 */
+--oui-color-warning-darken: 217 141 17;/* #D98D11 */
+--oui-color-warning-contrast: 13 17 28;
 
-  --oui-color-fill: 196 223 253;
-  --oui-color-fill-active: 90 154 226;
+/* Base scale (blocchi e navbar) – dal più chiaro al più scuro */
+--oui-color-base-1: 45 42 62;   /* #2D2A3E  card chiara */
+--oui-color-base-2: 40 38 56;   /* #282638 */
+--oui-color-base-3: 35 33 50;   /* #232132 */
+--oui-color-base-4: 32 30 46;   /* #201E2E */
+--oui-color-base-5: 28 27 42;   /* #1C1B2A */
+--oui-color-base-6: 24 23 38;   /* #181726 */
+--oui-color-base-7: 20 19 33;   /* #141321 */
+--oui-color-base-8: 17 16 29;   /* #11101D */
+--oui-color-base-9: 14 13 24;   /* #0E0D18 */
+--oui-color-base-10: 11 15 25;  /* #0B0F19  base più scura */
 
-  --oui-color-base-1: 222 245 250;
-  --oui-color-base-2: 206 239 247;
-  --oui-color-base-3: 190 232 244;
-  --oui-color-base-4: 168 223 238;
-  --oui-color-base-5: 144 213 232;
-  --oui-color-base-6: 116 197 219;
-  --oui-color-base-7: 92 178 205;
-  --oui-color-base-8: 72 156 188;
-  --oui-color-base-9: 56 132 168;
-  --oui-color-base-10: 42 109 147;
+--oui-color-base-foreground: 240 242 247; /* #F0F2F7 testo principale quasi bianco */
+--oui-color-line: 74 78 96;              /* #4A4E60 separatori soft su scuro */
 
-  --oui-color-base-foreground: 22 40 52;
-  --oui-color-line: 180 214 224;
+/* Trading (match brand) */
+--oui-color-trading-loss: 237 75 158;       /* #ED4B9E */
+--oui-color-trading-loss-contrast: 255 255 255;
+--oui-color-trading-profit: 49 208 170;     /* #31D0AA */
+--oui-color-trading-profit-contrast: 13 17 28;
 
-  --oui-color-trading-loss: 245 97 139;
-  --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
-  --oui-color-trading-profit-contrast: 255 255 255;
+/* Gradients disattivati ma compatibili (flat) */
+--oui-gradient-primary-start: 83 222 233;
+--oui-gradient-primary-end: 83 222 233;
+--oui-gradient-primary-angle: 0deg;
 
-  /* gradients */
-  --oui-gradient-primary-start: 32 120 150;
-  --oui-gradient-primary-end: 32 120 150;
+--oui-gradient-secondary-start: 154 101 255;
+--oui-gradient-secondary-end: 154 101 255;
 
-  --oui-gradient-secondary-start: 222 245 250;
-  --oui-gradient-secondary-end: 222 245 250;
+--oui-gradient-success-start: 49 208 170;
+--oui-gradient-success-end: 49 208 170;
 
-  --oui-gradient-success-start: 0 161 120;
-  --oui-gradient-success-end: 0 161 120;
+--oui-gradient-danger-start: 237 75 158;
+--oui-gradient-danger-end: 237 75 158;
 
-  --oui-gradient-danger-start: 237 72 122;
-  --oui-gradient-danger-end: 237 72 122;
+--oui-gradient-brand-start: 83 222 233;
+--oui-gradient-brand-end: 83 222 233;
+--oui-gradient-brand-stop-start: 0%;
+--oui-gradient-brand-stop-end: 100%;
+--oui-gradient-brand-angle: 0deg;
 
-  --oui-gradient-brand-start: 32 120 150;
-  --oui-gradient-brand-end: 32 120 150;
-  --oui-gradient-brand-stop-start: 0%;
-  --oui-gradient-brand-stop-end: 100%;
-  --oui-gradient-brand-angle: 0deg;
+--oui-gradient-warning-start: 255 178 55;
+--oui-gradient-warning-end: 255 178 55;
 
-  --oui-gradient-warning-start: 255 209 70;
-  --oui-gradient-warning-end: 255 209 70;
-
-  --oui-gradient-neutral-start: 230 246 249;
-  --oui-gradient-neutral-end: 230 246 249;
+--oui-gradient-neutral-start: 11 15 25;
+--oui-gradient-neutral-end: 11 15 25;
 
   /* rounded */
   --oui-rounded-sm: 2px;
