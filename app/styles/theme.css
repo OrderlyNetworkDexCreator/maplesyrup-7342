@@ -2,64 +2,62 @@
   --oui-font-family: 'Manrope', sans-serif;
   --oui-font-size-base: 16px;
 
- /* Primari (CTA/buttons) – azzurro ufficiale */
---oui-color-primary: 83 222 233;     /* #53DEE9  Connect Wallet */
---oui-color-primary-light: 132 236 243; /* hover soft */
---oui-color-primary-darken: 51 199 218; /* hover/active */
---oui-color-primary-contrast: 13 17 28; /* testo scuro dentro i CTA, come sito ufficiale */
+/* === Superfici richieste === */
+--oui-color-fill: 54 57 87;         /* #363957  sfondo retro */
+--oui-color-fill-active: 62 66 100; /* hover/overlay sullo sfondo */
 
-/* Link / accenti secondari (viola tipico PancakeSwap) */
---oui-color-link: 154 101 255;       /* #9A65FF */
---oui-color-link-light: 186 160 255; /* #BAA0FF */
+--oui-color-base-1: 39 38 44;  /* #27262C  navbar / cards */
+--oui-color-base-2: 47 46 54;  /* step leggermente più chiaro per stati */
+--oui-color-base-3: 55 54 64;
+--oui-color-base-4: 63 62 74;
+--oui-color-base-5: 71 70 84;
+--oui-color-base-6: 79 78 94;
+--oui-color-base-7: 87 86 104;
+--oui-color-base-8: 95 94 114;
+--oui-color-base-9: 103 102 124;
+--oui-color-base-10: 111 110 134;
 
-/* Superfici scure (navbar, card, sidebar) */
---oui-color-fill: 11 15 25;          /* #0B0F19  background */
---oui-color-fill-active: 26 34 48;    /* #1A2230  hover/pressed surface */
+--oui-color-base-foreground: 245 247 252; /* testo principale quasi bianco */
+--oui-color-line: 86 90 118;             /* bordi/linee su scuro */
 
-/* Stato */
+/* === Brand PancakeSwap (CTA) === */
+--oui-color-primary: 83 222 233;      /* #53DEE9  pulsanti primari chiari */
+--oui-color-primary-light: 132 236 243;
+--oui-color-primary-darken: 51 199 218;
+--oui-color-primary-contrast: 13 17 28; /* testo scuro dentro i CTA */
+
+--oui-color-link: 154 101 255;        /* #9A65FF */
+--oui-color-link-light: 186 160 255;
+
+/* === Status (coerenti con PancakeSwap) === */
 --oui-color-danger: 237 75 158;       /* #ED4B9E */
---oui-color-danger-light: 248 165 210; /* #F8A5D2 */
---oui-color-danger-darken: 204 50 128; /* #CC3280 */
+--oui-color-danger-light: 248 165 210;
+--oui-color-danger-darken: 204 50 128;
 --oui-color-danger-contrast: 255 255 255;
 
 --oui-color-success: 49 208 170;      /* #31D0AA */
---oui-color-success-light: 129 235 205;/* #81EBCD */
---oui-color-success-darken: 24 160 129;/* #18A081 */
+--oui-color-success-light: 129 235 205;
+--oui-color-success-darken: 24 160 129;
 --oui-color-success-contrast: 13 17 28;
 
 --oui-color-warning: 255 178 55;      /* #FFB237 */
---oui-color-warning-light: 255 210 130;/* #FFD282 */
---oui-color-warning-darken: 217 141 17;/* #D98D11 */
+--oui-color-warning-light: 255 210 130;
+--oui-color-warning-darken: 217 141 17;
 --oui-color-warning-contrast: 13 17 28;
 
-/* Base scale (blocchi e navbar) – dal più chiaro al più scuro */
---oui-color-base-1: 45 42 62;   /* #2D2A3E  card chiara */
---oui-color-base-2: 40 38 56;   /* #282638 */
---oui-color-base-3: 35 33 50;   /* #232132 */
---oui-color-base-4: 32 30 46;   /* #201E2E */
---oui-color-base-5: 28 27 42;   /* #1C1B2A */
---oui-color-base-6: 24 23 38;   /* #181726 */
---oui-color-base-7: 20 19 33;   /* #141321 */
---oui-color-base-8: 17 16 29;   /* #11101D */
---oui-color-base-9: 14 13 24;   /* #0E0D18 */
---oui-color-base-10: 11 15 25;  /* #0B0F19  base più scura */
-
---oui-color-base-foreground: 240 242 247; /* #F0F2F7 testo principale quasi bianco */
---oui-color-line: 74 78 96;              /* #4A4E60 separatori soft su scuro */
-
-/* Trading (match brand) */
---oui-color-trading-loss: 237 75 158;       /* #ED4B9E */
+/* === Trading === */
+--oui-color-trading-loss: 237 75 158;
 --oui-color-trading-loss-contrast: 255 255 255;
---oui-color-trading-profit: 49 208 170;     /* #31D0AA */
+--oui-color-trading-profit: 49 208 170;
 --oui-color-trading-profit-contrast: 13 17 28;
 
-/* Gradients disattivati ma compatibili (flat) */
+/* === Gradients disattivati (flat) per compatibilità === */
 --oui-gradient-primary-start: 83 222 233;
 --oui-gradient-primary-end: 83 222 233;
 --oui-gradient-primary-angle: 0deg;
 
---oui-gradient-secondary-start: 154 101 255;
---oui-gradient-secondary-end: 154 101 255;
+--oui-gradient-secondary-start: 39 38 44;
+--oui-gradient-secondary-end: 39 38 44;
 
 --oui-gradient-success-start: 49 208 170;
 --oui-gradient-success-end: 49 208 170;
@@ -76,8 +74,9 @@
 --oui-gradient-warning-start: 255 178 55;
 --oui-gradient-warning-end: 255 178 55;
 
---oui-gradient-neutral-start: 11 15 25;
---oui-gradient-neutral-end: 11 15 25;
+--oui-gradient-neutral-start: 54 57 87;
+--oui-gradient-neutral-end: 54 57 87;
+
 
   /* rounded */
   --oui-rounded-sm: 2px;
